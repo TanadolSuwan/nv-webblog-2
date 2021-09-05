@@ -37,7 +37,7 @@ module.exports = {
       res.send(req.body)
     } catch (err) {
         req.status(500).send({
-            error: 'Update user incorrect'
+            error: 'NNN'
         })
     }
   },
